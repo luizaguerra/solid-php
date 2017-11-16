@@ -1,0 +1,19 @@
+{
+    "name": "root/solid-php",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.4"
+    },
+    "authors": [
+        {
+            "name": "Luiza Guerra",
+            "email": "luiza.guerra@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Solid\\HTML\\": "src"   
+        }
+    }
+}
