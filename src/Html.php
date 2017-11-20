@@ -11,7 +11,7 @@ class Html
 
     public function a(string $href, string $anchor)
     {
-
+ 
         $tag = new class {
             private $attributes;
             public function attribute(array $attributes) {
@@ -27,7 +27,7 @@ class Html
 
             public function __toString() {
                 return '<a href="' . $this->href . '"' . $this->attributes . '>' . $this->anchor . '</a>';
-                var_dump("teste");die;
+                //var_dump("teste");die;
             }
         };
 

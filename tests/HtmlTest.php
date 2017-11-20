@@ -1,7 +1,7 @@
 <?php
 
 namespace Tests\Solid\Html;
-require __DIR__.'/../src/Html.php';
+require_once (__DIR__.'/../src/Html.php');
 use Solid\Html\Html;
 
 
